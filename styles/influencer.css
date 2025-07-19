@@ -1,0 +1,143 @@
+.header {
+    margin: 87px 120px 100px 120px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(58, 58, 58, 1.00);
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.fa-bars {
+      display: none;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:495px;
+    align-items: center;
+}
+
+.nav-relate {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:34px;
+}
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color:#3A3A3A;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+
+/* banner styles */
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:300px;
+    margin-top: 50px;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 500px;
+    padding-bottom: 20px;
+}
+.banner-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.banner-description {
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+
+.banner-right {
+
+ background-image: url(../images/Circle\ design.svg);
+ background-repeat: no-repeat;
+ background-size: auto;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.camera {
+    width: 440px;
+height: 414px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shared styles */
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-primary {
+    background-color: rgba(224, 44, 109, 1.00);
+    color: white;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.btn-primary:hover {
+    color: rgba(224, 44, 109, 1.00);
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.488);
+    transition: 0.5s;
+
+}
+
+
+/* media query */
+
+@media screen and (max-width:576px) {
+ .nav-list-item1,  .nav-list-item2,  .nav-list-item3,  .nav-list-item4,  .nav-list-item5{
+    display: none;
+ }
+
+ .navbar {
+    gap:20px;
+ }
+    .navbar-left {
+        display: grid;
+        grid-template-columns: repeat (2, 1fr);
+    }
+    .fa-bars {
+        display: inline;
+       font-size: 1rem;
+       cursor: pointer;
+    }    
+    .logo {
+        font-size: 1rem;
+    }
+}
