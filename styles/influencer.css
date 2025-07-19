@@ -10,7 +10,7 @@
     align-items: center;
     gap:10px;
 }
-.fa-bars {
+.menu-icon {
       display: none;
 }
 .navbar {
@@ -126,18 +126,32 @@ height: 414px;
  }
 
  .navbar {
-    gap:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
  }
     .navbar-left {
-        display: grid;
-        grid-template-columns: repeat (2, 1fr);
+       display: flex;
+       align-items: center;
+       gap: 10px;
     }
-    .fa-bars {
+    .menu-icon {
         display: inline;
-       font-size: 1rem;
+       font-size: 1.3rem;
        cursor: pointer;
     }    
     .logo {
         font-size: 1rem;
+    }
+    .banner {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    }
+
+    .nav-relate {
+        display: flex;
+        gap:15px;
     }
 }
