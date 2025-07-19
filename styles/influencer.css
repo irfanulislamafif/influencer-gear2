@@ -147,11 +147,31 @@ height: 414px;
     .banner {
     display: grid;
     grid-template-columns: 1fr;
+    gap:30px;
+    width: 500px;
+    text-align: center;
 
     }
+    .camera {
+    width: 300px;
+   height: 300px;
+
+
+}
+
+
 
     .nav-relate {
         display: flex;
         gap:15px;
     }
+
+    .banner-right {
+
+ background-image: url(../images/Circle\ design.svg);
+ background-repeat: no-repeat;
+ background-size:400px;
+ align-items: center;
+ justify-content: center;
+}
 }
